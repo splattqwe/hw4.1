@@ -11,7 +11,16 @@ public class Main {
            System.out.print(a+" ");
        }
         System.out.println();
-       // задание 2
- int w =7;
-       while (w<31) {  w=w+7;
-        System.out.println("Cегодня пятница " +w +" число. Необходимо подготовить отчет.");}}}
+
+// задание 3
+
+int yearNow = 2022;
+int start=yearNow-200;
+int end = yearNow +100;
+for( int year = start; year <= end; year ++){
+if (year % 79 ==0)
+            System.out.println(year);}
+// задание 2
+        int firstF =7;
+        for (int allF =firstF; allF <=31; allF=allF+7){
+            System.out.println("сегодня пятница " +allF);}}}
